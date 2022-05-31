@@ -11,8 +11,6 @@ import Footer from '../components/Footer/Footer';
 export default () => {
   const { title, lang, description } = headData;
 
-  
-
   return (
     <>
       <Helmet>
