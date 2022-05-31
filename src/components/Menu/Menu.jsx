@@ -1,33 +1,28 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
-import PortfolioContext from '../../context/context';
-import Title from '../Title/Title';
+//import PortfolioContext from '../../context/context';
+//import Title from '../Title/Title';
 
 const Menu = () => {
-
   return (
     <section id="Menu">
       <Container>
         <Fade bottom duration={1000} delay={100} distance="30px">
           <div className="about-wrapper">
-            <a rel="noopener noreferrer" className="cta-btn text-color-main" href={'#!'}>
+            <a rel="noopener noreferrer" className="cta-btn text-color-main" href={'/'}>
               홈
             </a>
-            <a rel="noopener noreferrer" className="cta-btn text-color-main" href={'#!'}>
-              게임 소계
+            <a rel="noopener noreferrer" className="cta-btn text-color-main" href={'/gameabout'}>
+              게임 소개
             </a>
-            <a rel="noopener noreferrer" className="cta-btn text-color-main" href={'#!'}>
+            <a rel="noopener noreferrer" className="cta-btn text-color-main" href={'/gameproject'}>
               게임 프로젝트 설명
             </a>
-            <a rel="noopener noreferrer" className="cta-btn text-color-main" href={'#!'}>
+            <a rel="noopener noreferrer" className="cta-btn text-color-main" href={'/rankview'}>
               랭킹 보기
             </a>
-            <a              
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--hero"
-              href={'#!'}
-            >
+            <a rel="noopener noreferrer" className="cta-btn cta-btn--hero" href={'/signup'}>
               회원가입
             </a>
           </div>
