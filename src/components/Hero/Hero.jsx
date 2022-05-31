@@ -31,14 +31,18 @@ const Header = () => {
             <br />
             {subtitle || "I'm the Unknown Developer."}
           </h1>
-        </Fade>
+          <div className='text-left'>
+            <h4>수업 간 제작한 사이트 입니다.</h4>
+            <br></br>
+          </div>
+        </Fade>        
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
                 {cta || 'Know more'}
               </Link>
-            </span>
+            </span>            
           </p>
         </Fade>
       </Container>
